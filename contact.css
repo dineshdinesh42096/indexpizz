@@ -1,0 +1,115 @@
+.nav a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s ease-in-out;
+    margin-left: 1%;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 170, 0);
+    transform: scale(1.1);
+}
+
+h2{
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ourdetail {
+    width: 420px;
+    margin-left: 5%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.27);
+  }
+
+  @media (max-width: 768px){
+    .ourdetail{
+      margin-left: auto;
+    }
+  }
+  label{
+    color: white;
+    font-weight: bold;
+  }
+
+  .ourdetail input,
+  .ourdetail textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.041);
+    color: white;
+  }
+  input::placeholder{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  textarea::placeholder{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .ourdetail>textarea {
+    resize: none;
+  }
+  button{
+    height: 40px;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(241, 205, 138);
+    font-weight: bold;
+    align-items: center;
+    margin-left: 28%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+  color: rgb(109, 54, 0);
+  text-decoration: none;
+}
+
+body {
+  background-image: url("./StockCake-Skateboarding\ Pizza\ Slice_1738425505.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; 
+}
+
+@media (max-width: 768px){
+  .condiv{
+    display: flex;
+    margin-left: 0%;
+}
+body {
+  background-image: url("./StockCake-Skateboarding\ Pizza\ Slice_1738425505.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: auto;
+  margin: 0; 
+}
+}

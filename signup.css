@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./bg\ image.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background: rgba(0, 0, 0, 0.351);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000d3;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.237);
+}
+
+input::placeholder{
+    color: white;
+}
+p{
+    color: white;
+}
+
+button {
+    width: 40%;
+    padding: 12px;
+    background: rgb(255, 153, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: rgb(255, 136, 0);
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    .signup-container {
+        background: rgba(0, 0, 0, 0.351);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 70%;
+    }
+}

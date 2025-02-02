@@ -1,0 +1,64 @@
+.nav a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s ease-in-out;
+    margin-left: 1%;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 170, 0);
+    transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+.abohead{
+    color: rgb(136, 54, 0);
+}
+
+.divbox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.divcontent{
+    margin-left: 2%;
+}
+.divcontent>h3{
+    color: rgb(255, 119, 0);
+}
+.divcontent>p{
+    color: rgb(82, 27, 0);
+    font-size: 1.1rem;
+}
+
+.divimg{
+    margin-right: 2%;
+}
+.divimg>img{
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .divbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .divimg>img{
+        height: 350px;
+        width: 350px;
+    }
+    
+}
